@@ -1,0 +1,15 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  min-height: 100vh;
+  font-weight: normal;
+  padding: 0 10px;
+  background-color: #f1f1f1;
+}
+
+*:focus {
+  outline: none;
+}
+
+
