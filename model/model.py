@@ -30,7 +30,7 @@ if __name__ == "__main__":
         combined_features = np.concatenate((mfcc, zerocross, melspec_db, [average_amplitude]), axis=0)
 
         X.append(combined_features)
-        label.append(util.get_label(data)[1] + random.uniform(-1, 1))
+        label.append(util.get_label(data)[1])
 
     # データをNumPy配列に変換
     X = np.array(X)
